@@ -1,6 +1,6 @@
 
     const row = document.querySelector(".row");
-    row.className = "row row-cols-1 row-cols-md-3"
+    row.className = "row row-cols-1 row-cols-md-3 gx-3 gy-3"
        for(let i = 0;i<6;i++){
         const col = document.createElement("div")
         col.className = "col"
